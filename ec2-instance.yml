@@ -1,0 +1,15 @@
+AWSTemplateFormatVersion: "2010-09-09"
+Description: Create a single EC2 instance without a key pair
+
+Resources:
+  MyEC2Instance:
+    Type: AWS::EC2::Instance
+    Properties:
+      ImageId: ami-1234567890123243  # Replace with your desired Amazon Machine Image (AMI) ID
+      InstanceType: t2.micro          # Replace with your desired instance type
+      KeyName: ''            # Replace with your desired key pair name
+      UserData:
+        Fn::Base64: !Sub |
+          #!/bin/bash
+          echo "Hello from User Data!" > /tmp/user-data-output.txt
+            

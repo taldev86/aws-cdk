@@ -1,0 +1,26 @@
+sorry
+
+
+You are on the next page
+IaC and Flask API Deployment
+
+Please select this Activity label in the Upwork Work Diary now:
+ 
+Work Diary Activity: LAMP1
+
+During this task, you'll setup a virtual server with Linux, MySQL and Python without access to the web console using Infrastructure as Code (IaC). Once completed, you will then refactor a Python CGI web API to a Flask app and deploy it by updating the IaC. This task consists of 3 steps. First you will research and select appropriate IaC tooling to use for this and subsequent tasks. Next, you will develop IaC to deploy the virtual server with a simple Flask setup validation app. Finally, you will refactor the Python CGI source code to a Flask app and update the server or redploy the IaC with this replacing the setup validation app.
+
+Step 1 of 3: Infrastructure as Code Approach
+
+The first step of this task is to decide how to deploy a Linux virtual server with MySQL and Python using IaC. This include both which AWS service and IaC tooling you will use.
+
+Requirements
+
+    Deploy a single Linux virtual server on Amazon EC2 using IaC
+    The virtual server should be setup with Python3, Flask and MySQL during the initial boot
+    Limit usage to AWS Free Tier
+    Use the Amazon Linux 2023 operating system AMI
+    We suggest using user data to setup the server at boot time using IaC
+    If you do not use user data, you should create or import a key pair to access and setup the server using SSH
+
+ On the next screen you will select the IaC tool you intend to use for this task. Please do not begin writing IaC or setting up your server yet. If after reviewing documentation and other resources you are unsure of an approach, select the more help options below.

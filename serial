@@ -1,0 +1,26 @@
+~01bde78a86dcc1d1fc
+
+Account #: 627899516510
+username: 01bde78a86dcc1d1fc
+
+
+PW: XOX9lCEqLzLG67-JCdQg5g!
+
+aws_access_key_id: AKIAZEMN2IZPHZ5HHKGI
+
+aws_secret_access_key: 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
+
+aws sts get-caller-identity
+627899516510    arn:aws:iam::627899516510:user/01bde78a86dcc1d1fc_admin AIDAZEMN2IZPIHSC4LMJJ
+
+west2 instance ID : i-0237b3045499dccf2  , i-01c1dad448b633205
+
+-----Cloud Native 1
+https://aws.amazon.com/serverless/
+https://docs.aws.amazon.com/
+https://aws.amazon.com/products/databases/learn/?p=gsrc&c=dd_d
+https://aws.amazon.com/getting-started/decision-guides/databases-on-aws-how-to-choose/
+
+subnet-07610f4673665ad36
+subnet-017751c7b9f7c2bac
+ subnet-0e742e56b9744b254 
